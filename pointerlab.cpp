@@ -36,7 +36,7 @@ void function2() {
 			max_ptr = current;
 		}
 	}
-	cout << "The maximum value is: " << max_ptr << endl;
+	cout << "The maximum value is: " << *max_ptr << endl;
 }
 
 void function3() {
